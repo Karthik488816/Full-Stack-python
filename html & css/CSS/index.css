@@ -1,0 +1,46 @@
+/*
+/*universal selector
+*{
+    font-size: 70px;
+}
+
+   /*element selector     
+h1{
+    background: gray;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+}
+    */
+/* id selector*/
+#part-1{
+    background-color:rgb(53, 178, 120)}
+
+/* class selector*/
+.list{
+    background-color: rgb(165, 126, 107);
+    
+}
+/*Group selector*/
+.list,div{
+    text-align: center;
+}
+/*descendent selector*/
+.list .first{
+    font-size: 50px;
+}
+.list .second{
+    text-transform: uppercase;
+}
+/*direct child selector*/
+.list > li{
+    color:blue;
+    font-size: 50px;
+}

@@ -1,0 +1,35 @@
+
+nav{
+    height: 300px;
+    width:400px;
+    border: 10px solid wheat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* flex-direction":; */
+    gap: 20px;
+}
+.el{
+    background-color: aqua;
+    color: darkgrey;
+    height: 30px;
+    width: 50px;
+    border: 5px;
+    border-radius: 7px;
+    border-style: dashed;
+}
+.el-1{
+    background-color: indigo;
+    justify-self: start;
+    order: -1;
+}
+.el-2{
+    background-color: brown;
+    order: -1;
+}
+.el-3{
+    background-color: blueviolet;
+}
+.el-4{
+    background-color: chocolate;
+}

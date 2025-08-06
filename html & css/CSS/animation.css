@@ -1,0 +1,52 @@
+.box{
+     height: 250px;
+    width: 350px; 
+    background: url(jon2.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    box-shadow: 50px;
+    /* transform: translateX(125px);*/
+    /* transform: translateY(80%); */
+    /* transform: translate(-10px,70%); */
+    /* transform: scale(1.5,1.5); */
+     /* transform: skew(49deg,30deg);  */
+    /* transform: rotateX(120deg);
+    transform: rotateY(120deg);
+    transform: rotateZ(130deg); */
+    /* animation-name: start;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;*/
+
+    transition: all 5s ease .2s;
+}
+
+ 
+/* @keyframes start {
+    from{
+        margin-left: 100%;
+        transform: rotate(125deg);
+    } */
+    /* 80%{
+        transform: scaleX(2.5);
+        padding: 20px;
+    }
+    50%{
+        transform: skew(2deg,25deg);
+    }
+    30%{
+        transform: rotate(120deg);
+    }
+    0%{
+        transform: scale(1);
+    }/
+    to{
+        margin-left: 10%;
+        transform: rotate(360deg);
+    }
+} */
+.box:hover{
+    width: 800px;
+    transform: rotateZ(68deg);
+ }

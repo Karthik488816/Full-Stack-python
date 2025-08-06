@@ -1,0 +1,8 @@
+nav{
+    height: 300px;
+    width:400px;
+    border: 10px solid wheat;
+    display: flex;
+    justify-content:start;
+    gap: 12px;
+}

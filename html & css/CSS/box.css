@@ -1,0 +1,29 @@
+#container{
+    height: 400px;
+    width: 600px;
+    background-color: aquamarine;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border-width: 5px;
+    border-style:dashed;
+    border-color:rgba(8, 75, 72, 0.562);
+    border: 4px solid;
+    border-radius: 50%;
+}
+.box-1{
+    background-color: yellow;
+    /* margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 25px;
+    margin-right:5px;
+} */
+ margin:50px 30px;
+ margin: 25px 40px 30px 45px;
+ padding: 10px 15px 20px 25px;
+ }
+ .box-2{
+    background-color: blue;
+    padding: 10px 15px 20px 25px;
+}

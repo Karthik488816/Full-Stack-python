@@ -1,0 +1,12 @@
+.block,.inline{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(98,155,98);
+    font-size: 30px;
+    display: inline;
+}
+.inline{
+    display:inline;
+    visibility: hidden;
+    font-size: 50px;
+}

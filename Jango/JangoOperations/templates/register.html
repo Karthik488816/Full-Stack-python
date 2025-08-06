@@ -1,0 +1,14 @@
+{% block title %}
+<title>Signup</title>
+{% endblock %}
+
+{% block content %}
+<h1>Register</h1>
+<form action="{% url 'register' %}" method="POST">
+    {% csrf_token %sir}
+{{form.as_table}}
+<br>
+<button type="submit">Submit</button>
+<p>if yoe already register <a href="{% url 'home' %}">login</a></p>
+</form>
+{% endblock %}

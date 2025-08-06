@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Registration form</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your name" required="text"/><br>
+        <label for="password">Password</label>
+        <input type="password" id="password"placeholder="Enter your password" required="password"/><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" /><br>
+        <input type="submit" />
+        <input type="reset"/><br>
+    </fieldset>
+        <p>Gender</p>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="Gender" />
+        <label for="female">female</label>
+        <input type="radio" id="female" name="Gender" />
+        <label for="other">Ashish</label>
+        <input type="radio" id="other" name="Gender" /><br>
+        <p>Favorite Programming Language</p>
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" />
+        <label for="js">JS</label>
+        <input type="checkbox" id="js" />
+        <label for="go">Go</label>
+        <input type="checkbox" id="go" /><br>
+        <label for="date">DOB</label>
+        <input type="date" id="date" /><br>
+        <label for="file">Upload file</label>
+        <input type="file" id="file" /><br>
+        <label for="range">File size</label>
+        <input type="range" id="range" /><br>
+        <label for="rev">Review</label>
+        <textarea  id="rev"></textarea><br>
+        <label for="months">Select your birth month</label>
+        <select  id="months">
+            <option value="jan">Jan</option>
+            <option value="feb">Feb</option>
+            <option value="mar">Mar</option>
+            <option value="apr">Apr</option>
+            <option value="may">May</option>
+            <option value="jun">Jun</option>
+            <option value="jul">Jul</option>
+            <option value="aug">Aug</option>
+            <option value="sep">Sept</option>
+            <option value="oct">Oct</option>
+            <option value="nov">Nov</option>
+            <option value="dec">Dec</option>
+        </select>
+    </form>
+   </body>
+</html>
