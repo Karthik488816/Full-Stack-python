@@ -97,7 +97,7 @@ export default App;
 // }
 // export default App;
 
-/*
+
 import Product from "./Product";
 const Products = [
   { name: "Laptop", price: 250 },
@@ -115,7 +115,7 @@ function App() {
   );
 }
 export default App;
-*/
+
 
 /*
 import Counter from "./counter";
@@ -141,6 +141,7 @@ const App = () => {
 export default App
 */
 
+/*
 import React, { createContext } from 'react'
 import Parent from './Parent';
 import Child from './Child';
@@ -154,7 +155,7 @@ function App() {
     <div>
       <Parent />
       <Child />
-      {/* providing value phase */}
+      {/* providing value phase }
       <nameContext.Provider value = {name}>
         <Grandchild />
         </nameContext.Provider >
@@ -162,4 +163,4 @@ function App() {
   )
 }
 export default App
-
+*/
